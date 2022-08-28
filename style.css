@@ -1,0 +1,261 @@
+@import url(https://weloveiconfonts.com/api/?family=entypo|fontawesome);
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* HEADER */
+header{
+    background-color: rgb(4, 109, 144);
+	height: 100px;
+	
+}
+.name{
+	text-transform: uppercase;
+	font-size: 40px;
+	margin-left: 20px;
+	
+}
+header .navigation
+{
+    float: right;
+	margin-right: 20px;
+}
+.navigation a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-decoration: none;
+    border:1px solid white;
+    padding: 5px;
+    margin: 5px;
+}
+.navigation a:hover{
+    background-color:steelblue;
+    color: black;
+}
+
+	/* body */
+
+body {
+	background: url(/img2/port1.jpg);
+	background-size: cover;
+}
+
+h1,h2 {
+	font-family: 'Lato', Helvetica, sans-serif;
+	font-weight: 300;
+	color: #48DA9B;
+}
+	h1 {
+		font-size: 48px;
+		font-weight: 300;
+		margin: 20px 0;
+	}
+	h2 {
+		font-size: 28px;
+		margin: 32px 0 24px;
+	}
+	 p , a, li {
+	font-family: 'Lato', Helvetica, sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	color: #e4e3e8;
+}
+
+a:focus { 
+    outline: none;
+}
+ul {
+    padding:0;
+    margin:0;
+}
+	li { 
+		padding-left: 1em; 
+		text-indent: -.7em;
+	}
+
+.purple {
+	color: #000000;
+	font-weight: bold;
+}
+.block{
+	margin-left: 400px;
+}
+.block1 {
+	margin: 25px 30px;
+	margin-left: 300px;
+	width: 500px;
+}
+	.block1 h1 {
+		margin-left: -5px;
+		font-weight: 200;
+	}
+.block2 {
+		margin: 25px 30px;
+		margin-left: 500px;
+	}
+		.block2 h1 {
+			margin-left: -5px;
+			font-weight: 200;
+		}
+.block3 {
+		margin: 25px 30px;
+		margin-left: 700px;
+		width: 500px;
+}
+		.block3 h1 {
+			margin-left: -5px;
+			font-weight: 200;
+		}
+.block4 {
+		margin: 25px 30px;
+		margin-left: 900px;
+		width: 500px;
+}
+		.block4 h1 {
+			margin-left: -5px;
+			font-weight: 200;
+		}
+	#header {
+		height: 130px;
+		border-bottom: 1px solid #403F44;
+	}
+		.headercontainer {
+			width: 260px;
+			height: 130px;
+			border-right: 1px solid #403F44;
+			float: left;
+		}
+		.header_menu_container {
+			height: 130px;
+			width: 699px;
+			float: left;
+		}
+			.header_menu_container a {
+				font-family: 'Lato', Helvetica, sans-serif;
+			}
+
+	#content_container {
+		border-left: 1px solid #403F44;
+		float: left;
+	}
+
+
+	.profile_picture{
+		float: right;
+		width: 210px;
+		height: 300px;
+		margin-top: 90px;
+		margin-right: 20px;
+		background: url(/img2/mayasari.jpg) 100%/210px;
+	}
+
+	.horizontal_list {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+	}
+		.horizontal_list li {
+			float: left;
+		}
+		.horizontal_list li:before {
+			content: none;
+		}
+		.horizontal_list li { 
+			padding-left: 0; 
+			text-indent: 0;
+		}
+
+	.get_social_content {
+		margin-top: 15px;
+		margin-left: 800px;
+	}
+	  .get_social_content h2{
+		margin-bottom: 8px;
+	  }
+		.social_icons {
+			
+			padding: 10px;
+		}
+		.social_icons a {
+			font-size: 35px;
+			text-decoration: none;
+			color: #121211;
+			padding: 0 5px;
+		}
+			.social_icons .facebook:hover{
+				background: #3b5998;
+				color: #dfe3ee;
+				border-top-right-radius: 50px;
+				border-bottom-left-radius: 50px;
+			}
+			.social_icons .twitter:hover{
+				background: #00B0ED;
+				color: #fff;
+				border-top-left-radius: 50px;
+				border-bottom-right-radius: 50px;
+			}
+			.social_icons .linkedin:hover{
+				background: #007bb6;
+				color: #fff;
+				border-top-right-radius: 50px;
+				border-bottom-left-radius: 50px;
+			}
+	
+
+.block5 {
+	margin-top: 50px;
+	margin-left: 400px;
+}
+
+.block5 h2 + p.purple{
+	margin-top: 10px;
+}
+.block5 p{
+	margin: 0;
+}
+.block5 p.purple{
+	margin-top: 25px;
+}
+#submit1{
+	background-color: rgb(30, 255, 116);
+	margin-left: 400px;
+    width: 160px;
+    border: 3px solid rgb(108, 240, 108);
+    height: 2em;
+}
+#submit1 a{
+	text-decoration: none;
+	font: 30px medium;
+	margin-left: 35px;
+	color: #3506ee;
+	
+}
+
+#nav1 a{
+	float: right;
+	color: red;
+	text-decoration: none;
+	font-size: xx-large;
+	
+}
+#nav1 a:hover
+{ background-color:rgb(242, 38, 11);
+    color: rgb(243, 247, 9);
+}
+
+footer {
+		color: #000001;
+		height: 1.5em;
+		margin-top: 10%;
+		width: 100%;
+		text-align: center;
+}
